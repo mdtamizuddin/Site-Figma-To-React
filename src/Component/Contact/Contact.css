@@ -1,0 +1,43 @@
+:root{
+    --dark-blue: #00235A;
+    --red: #C8242F;
+    --dark-white : #6F6D71;
+  }
+  
+
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.form-group img{
+    width: 60px;
+}
+.input-group{
+    display: flex;
+    
+}
+.input-group input{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid var(--red) ;
+    color: var(--red);  
+    outline: none;
+}
+.message-Form{
+    width: 98%;
+    height: 200px;
+    padding: 10px ;
+    margin-top: 30px;
+    border: none;
+    background-color: #eeeeee;
+    outline: none;
+}
+.message-Form:focus{
+    outline: 2px solid #C8242F;
+}
+.contact button{
+    margin-top: 30px;
+}

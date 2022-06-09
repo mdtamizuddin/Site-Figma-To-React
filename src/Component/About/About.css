@@ -1,0 +1,31 @@
+:root{
+    --dark-blue: #00235A;
+    --red: #C8242F;
+    --dark-white : #6F6D71;
+  }
+
+.process-card{
+    display: flex;
+    align-items: center;
+}
+.process-card img{
+    margin-right: 27px;
+    width: 70px;
+}
+.process-card h2{
+    color: var(--dark-blue);
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.process-card p{
+    margin-top: 0px;
+    line-height: 27px;
+    color: var(--dark-white);
+}
+
+@media only screen and (max-width: 600px){
+    .about header h1{
+        text-align: center;
+    }
+
+}

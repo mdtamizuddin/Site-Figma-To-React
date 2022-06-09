@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap');
+
+:root{
+    --dark-blue: #00235A;
+    --red: #C8242F;
+  }
+.home-page header{
+    height: 90vh;
+    width: 100%;
+    background-color: var(--dark-blue);
+    margin-top: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.home-page header h1{
+    font-size: 64px;
+    font-family: 'Playfair Display SC', serif;
+    line-height: 88px;
+}
+h2{
+    font-family: 'Playfair Display SC', serif;
+}
+h1{
+    font-family: 'Playfair Display SC', serif;
+}
+.home-page header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.home-page header p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 50%;
+}
+.home-page .button-group{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.btn-1{
+    background-color: #C8242F;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.button-group .btn-2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 16px 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* home service section  */
+/* home service section  */
+.home-service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    z-index: 22;
+    margin-top: -140px;
+    padding-bottom: 100px;
+}
+.service-card{
+    background-color: white;
+    border-bottom: 4px solid var(--red);
+    padding: 30px;
+}
+.service-card h2{
+    color: var(--dark-blue);
+}
+.service-card p{
+    font-size: 18px;
+}
+/* home service section  */
+/* home service section  */
+
+/* home About section  */
+/* home About section  */
+.home-about{
+    margin-top: 100px;
+    display: flex;
+    
+}
+.home-about .content{
+    padding: 0px 50px ;
+    margin-top: 50px;
+}
+.sub-heading{
+    font-size: 25px;
+    color: var(--red);
+    margin: 0;
+}
+.text-center{
+    text-align: center;
+}
+.home-about h1{
+color: var(--dark-blue);
+font-size: 64px;
+margin-top: 0px;
+margin-top: 30px;
+}
+.home-about .content p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.home-about .btn-1{
+    margin-top: 30px;
+}
+
+/* home About section  */
+/* home About section End */
+
+/* home service section  */
+/* home service section  */
+.home-service-2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    
+   margin-top: 100px;
+    padding-bottom: 100px;
+}
+.service-card{
+    background-color: white;
+    border-bottom: 4px solid var(--red);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.service-card h2{
+    color: var(--dark-blue);
+    font-size: 30px;
+    margin-top: 20px !important;
+}
+.service-card p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* home service section  */
+/* home service section  */
+.heading{
+    font-size: 50px;
+    color: var(--dark-blue);
+    text-align: center;
+}
+.home-service-3{
+    margin-top: 80px;
+}
+.grid-4-column{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+.grid-4-column .service-card{
+    border: 0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.grid-4-column .service-card:hover {
+    box-shadow: 0px 0px 10px 0px rgb(194, 194, 194);
+}
+.grid-4-column .service-card h2{
+   font-size: 28px;
+   margin-bottom: 7px;
+}
+.grid-4-column .service-card p{
+    margin-top: 0;
+}
+
+
+
+.team-member-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+}
+
+.testimonial .swiper-slide{
+    width: 800px !important;
+}

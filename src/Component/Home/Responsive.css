@@ -1,0 +1,135 @@
+@media only screen and (max-width: 600px) {
+    .home-page header {
+        height: 90vh;
+        width: 100%;
+        background-color: var(--dark-blue);
+        margin-top: 0;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-page header h1 {
+        font-size: 34px;
+        font-family: 'Playfair Display SC', serif;
+        line-height: 70px;
+    }
+
+    .home-page header p {
+        width: 100%;
+    }
+
+    .home-page .button-group {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+    }
+
+    .home-page .button-group button {
+        margin-top: 20px;
+    }
+
+
+
+    /* Home Header End Here  */
+    /* Home Header End Here  */
+    /* Home Header End Here  */
+    .home-service {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+
+        margin-top: 40px;
+        padding-bottom: 100px;
+    }
+
+    /* Home service End Here  */
+    /* Home service End Here  */
+    .home-about {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .home-about h1 {
+        color: var(--dark-blue);
+        font-size: 34px;
+        margin-top: 0px;
+        margin-top: 30px;
+    }
+
+    /* Home service 2  Here  */
+
+    .home-service-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* Home service 2  Here  */
+
+    .grid-4-column {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+
+    .test-card {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        
+    }
+    .test-card-image{
+        width: 100% !important;
+    }
+    .testimonial .swiper-slide {
+        width: 100% !important;
+    }
+    .test-card-desc {
+        width: 90% !important;
+        padding: 10px !important;
+        
+    }
+    .test-card-desc h2 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .test-card-desc p {
+        text-align: center;
+    
+    }
+    .team-member-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+    .blog-image{
+        height: 300px !important;
+    }
+    .blog-card {
+        height: 900px !important;
+    }
+    .our-blog .swiper-slide{
+        height: 900px !important;
+    }
+    .blog-user{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+   .home-about .content{
+       padding: 15px;
+   }
+}
